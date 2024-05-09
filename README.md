@@ -1,75 +1,23 @@
-# Nuxt 3 Minimal Starter
+# Linktree Clone / PWA (linktree-clone)
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Introduction
+This project is a Linktree clone built as a Progressive Web Application (PWA). It provides users with a simple way to create a personalized page containing links to their various social media profiles, websites, or other online platforms.
 
-## Setup
+## NOTE
+**For this Linktree Clone to work you'll need the API/Backend:**
 
-Make sure to install the dependencies:
+Linktree Clone API: https://github.com/Ziad-Ashraf-0/linktree-clone-api
 
-```bash
-# npm
-npm install
+## How to run locally
 
-# pnpm
-pnpm install
+   ```bash
+   git clone https://github.com/Ziad-Ashraf-0/linktree-clone
 
-# yarn
-yarn install
+   npm install
 
-# bun
-bun install
-```
+   npm run dev
+   ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+   Inside Plugins/axios make sure the baseURL is the same as your API.
+   
+   <img width="443" alt="225085615-529afbca-8cb8-4ed4-bf5b-54ba6f827f36" src="https://github.com/Ziad-Ashraf-0/linktree-clone/assets/46260528/136b8b71-4810-4aac-80da-e4be65a93ca2">
